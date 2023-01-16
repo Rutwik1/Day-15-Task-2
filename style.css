@@ -1,0 +1,84 @@
+@media (min-width: 992px){
+    .container {
+        background-color: rgb(204, 204, 204);
+        padding: 5rem 0 5rem 0;
+        display: flex;
+        justify-content: center;
+      }
+      .form-wrapper {
+        width: 80%;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3rem;
+      }
+      .name-div {
+        display: flex;
+        column-gap: 10%;
+      }
+      .address {
+        display: flex;
+        column-gap: 10%;
+      }
+      .location-details {
+        display: flex;
+        column-gap: 2rem;
+      }
+      
+      .name-div .first-name,
+      .name-div .last-name,
+      .address .user-address {
+        width: 100%;
+      }
+      .name-div input,
+      .address input,
+      .location-details input {
+        width: 100%;
+      }
+      .gender-options {
+        display: flex;
+        column-gap: 3rem;
+      }
+     .choice-of-food {
+        display: flex;
+        column-gap: 2rem;
+     }
+      
+      .form-wrapper button {
+        width: 30%;
+        margin-left: 35%;
+      }
+      
+      .table-div {
+        overflow-x: auto;
+      }
+      
+}
+@media (max-width: 991px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(204, 204, 204);
+    }
+    .form-wrapper{
+        width:80%;
+    }
+    .name-div,.address,.location-details,.gender-div,.choice-of-food{
+        display: flex;
+        flex-direction: column;
+    }
+    .food{
+        display: flex;
+        column-gap: .75rem;
+    }
+    
+    .table-div{
+        overflow-x: auto;
+    }
+    .submit-button{
+        width:30%;
+        margin-left: 35%;
+    }
+}
